@@ -1,0 +1,1201 @@
+body{
+  margin:0px;
+  padding:0px;
+  background:#E8E8E8;
+  font-size: 18px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+li {
+  list-style: square; 
+}
+
+a {
+  color:white;
+}
+
+@media (max-width: 1080px) {
+   /* CSS applique aux petits ecrans */
+   nav {
+      display: none;
+   }
+   .menue_responsive {
+      width: 100%;
+      height: 100px;
+      background: white;
+    }
+   .univ_artois {
+    display: none;
+   }
+
+
+   .MENUEresp {
+      background: white;
+      height: 100px;
+   }
+   .FORMATIONresp {
+      background: #00AF9E;
+      height: 100px;
+  }
+    .INTERNATIONALresp {
+      background: #E71D73;
+      height: 100px;
+    }
+    .VIEIUTresp {
+      background: #EB8915;
+      height: 100px;
+    }
+    .ENRTREPRISEresp {
+      background: #A24392;
+      height: 100px;
+    }
+    .IUTresp {
+      background: #044883;
+      height: 100px;
+    }
+}
+.formationphoto {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+@media (max-width: 1150px) {
+  .image_header {
+    display: none;
+  }
+  #slideshow {
+    display: none;
+  }
+}
+
+.header li{
+  color:black;
+  list-style: square;
+}
+.header a{
+  color:black;
+}
+/* En-tête */
+.contain_navbar {
+  background: white;
+}
+
+.image_header {
+  width: 100%;
+  height: 80%;
+}  
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.assurancevoyage.fr/wp-content/uploads/2017/01/assurance-voyage-besoin.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.language li{
+  display: inline;
+  padding: 5px;
+  opacity: 0.8;
+}
+.language{
+  text-align: right;
+  z-index: 10;
+}
+.language li:hover{
+  opacity: 1;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border:1px solid white;
+  padding: 20px;
+}
+
+.center {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+.center a{
+  color:#E71D73;
+}
+
+.center .cd1{
+  font-weight: bold;
+}
+
+.foo{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* FORMES POUR LA NAV BAR */
+
+.rectangle1 {
+  height: 100px;
+  width: 200px;
+  background-color: #00AF9E;
+  border-left:;
+  position:relative;
+  z-index:7;
+
+}
+
+.triangle-right1 {
+  z-index:10;
+  position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 30px solid #00AF9E;
+  border-bottom: 50px solid transparent;
+}
+
+.rectangle2 {
+
+  height: 100px;
+  width: 215px;
+  background-color: #E71D73;
+  margin-left: -3.5px;
+  position:relative;
+}
+
+.triangle-right2 {
+    z-index:9;
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 30px solid #E71D73;
+  border-bottom: 50px solid transparent;
+}
+
+.rectangle3 {
+  height: 100px;
+  width: 200px;
+  margin-left: -3.5px;
+  background-color: #EB8915;
+  position:relative;
+}
+
+.triangle-right3 {
+    z-index:8;
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 30px solid #EB8915;
+  border-bottom: 50px solid transparent;
+}
+
+.rectangle4{
+
+  height: 100px;
+  width: 200px;
+  background-color: #A24392;
+  position:relative;
+  margin-left: -3.5px;
+}
+
+.triangle-right4{
+    z-index:9;
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 30px solid #A24392;
+  border-bottom: 50px solid transparent;
+}
+
+.rectangle5 {
+
+  height: 100px;
+  width: 200px;
+  background-color: #044883;
+  position:relative;
+  margin-left: -3.5px;
+}
+
+.triangle-right5 {
+    z-index:9;
+    position:absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 30px solid #044883;
+  border-bottom: 50px solid transparent;
+}
+
+.univ_artois {
+  float: right;
+  margin: 20px;
+}
+
+/* FIN DES FORMES DE LA NAV BAR */
+
+.FORMATION {
+  color:white;
+  font-family:Arial;
+  font-size:20px;
+  text-align:center;
+  margin-top:30px;
+}
+
+.logo {
+  width:80px;
+  height:80px;
+  padding:17px;
+  background: white;
+  margin-right: -30px;
+}
+
+
+
+.header {
+  margin-top: 50px;
+  padding:40px;
+  background:white;
+  border:4mm ridge rgba(47, 53, 57, .9);
+  opacity: 0.8;
+  text-align:center;
+}
+
+.header_photo {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+
+}
+
+.partenaireiut {
+  margin-top:50px; 
+  border:2px solid black;
+}
+
+h3,h4,h5 {
+  font-size:30px;
+  text-align:center;
+  color:black;
+}
+
+/* menu */
+#menu .menu{
+  display: inline;
+}
+
+/* Suppression des puces et des marges pour les listes du menu et des sous-menus */
+#menu .menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#menu .menu ul { /* Masquage des sous-menu par defaut */
+  display: none;
+}
+#menu .menu li {
+/* Disposition horizontale des elements de menu */
+  display: inline-block;
+/* Positionnement relative des elements de menu pour pouvoir positionner les sous-menu correctement en absolu */
+  position: relative;
+}
+#menu .menu .rectangle1 .rectangle2 .rectangle3 .rectangle4 .rectangle5 a{
+/* On transforme les liens en bloc pour pouvoir les dimensionner */
+  display: block;
+/* Dimensions des liens */
+  width: 100px;
+  height: 90px;
+  line-height: 90px;
+  /* Doit etre equivalent a la hauteur du menu pour centrer le texte verticalement */
+  padding: 3px 10px;
+  text-align: center;
+}
+#menu .menu li:hover ul {
+/* Affichage du soumenu au survol */
+  display: block;
+/* Positionnement du sous-menu */
+  position: absolute;
+  top: 96px; /* Hauteur du menu + hauteur du padding top et bottom : 30 + 3 + 3 = 36 */
+  left: 0px; /* Decalage du sous-menu par rapport aux liens du menu*/
+  z-index: 100; /* Gestion de la superposition des sous-menus par rapport au reste de la page */ }
+#menu .menu .rectangle1 .rectangle2 .rectangle3 .rectangle4 .rectangle5 ul a { /* Changement de l'affichage des liens des sous-menus pour ne pas les afficher en inline-block comme les liens de menu, ils seront donc verticaux */
+  display: block;
+}
+#menu .menu ul li a{
+  width: 60px;
+}
+
+/* Gestion des couleurs */
+#menu .menu_formation li {
+  background-color: #00AF9E; /* Couleur d'arriere-plan du menu */
+}
+#menu .menu_formation li a {
+  color: white; /* Couleur du texte du menu */
+}
+#menu .menu_formation li:hover {
+  background-color: white;
+  border-radius: 10px; /* Couleur d'arriere-plan du menu au survol */
+}
+#menu .menu_formation li:hover a {
+  color: black; /* Couleur du texte du menu au survol */
+}
+#menu .menu_formation ul li {
+  background-color: #00AF9E; /* Couleur d'arriere-plan des sous-menu */
+}
+#menu .menu_formation ul li:hover {
+  background-color: red;
+  opacity: 0.95; /* Couleur d'arriere-plan des sous-menu au survol */
+}
+#menu .menu_formation ul li a {
+  color: black; /* Couleur du texte des sous-menu */
+}
+#menu .menu_formation ul li:hover a {
+  color: white; /* Couleur du texte des sous-menu au survol */
+}
+
+/* Gestion des couleurs */
+#menu .menu_international li {
+  background-color: #E71D73; /* Couleur d'arriere-plan du menu */
+}
+#menu .menu_international li a {
+  color: white; /* Couleur du texte du menu */
+}
+#menu .menu_international li:hover {
+  background-color: white;
+  border-radius: 10px; /* Couleur d'arriere-plan du menu au survol */
+}
+#menu .menu_international li:hover a {
+  color: black; /* Couleur du texte du menu au survol */
+}
+#menu .menu_international ul li {
+  background-color: #E71D73; /* Couleur d'arriere-plan des sous-menu */
+}
+#menu .menu_international ul li:hover {
+  background-color: #E71D73;
+  opacity: 0.95; /* Couleur d'arriere-plan des sous-menu au survol */
+}
+#menu .menu_international ul li a {
+  color: black; /* Couleur du texte des sous-menu */
+}
+#menu .menu_international ul li:hover a {
+  color: white; /* Couleur du texte des sous-menu au survol */
+}
+
+/* Gestion des couleurs */
+#menu .menu_vieIUT li {
+  background-color: #EB8915 /* Couleur d'arriere-plan du menu */
+}
+#menu .menu_vieIUT li a {
+  color: white; /* Couleur du texte du menu */
+}
+#menu .menu_vieIUT li:hover {
+  background-color: white;
+  border-radius: 10px; /* Couleur d'arriere-plan du menu au survol */
+}
+#menu .menu_vieIUT li:hover a {
+  color: black; /* Couleur du texte du menu au survol */
+}
+#menu .menu_vieIUT ul li {
+  background-color: #EB8915; /* Couleur d'arriere-plan des sous-menu */
+}
+#menu .menu_vieIUT ul li:hover {
+  background-color: red;
+  opacity: 0.95; /* Couleur d'arriere-plan des sous-menu au survol */
+}
+#menu .menu_vieIUT ul li a {
+  color: white; /* Couleur du texte des sous-menu */
+}
+#menu .menu_vieIUT ul li:hover a {
+  color: purple; /* Couleur du texte des sous-menu au survol */
+}
+
+/* Gestion des couleurs */
+#menu .menu_entreprise li {
+  background-color: #A24392; /* Couleur d'arriere-plan du menu */
+}
+#menu .menu_entreprise li a {
+  color: white; /* Couleur du texte du menu */
+}
+#menu .menu_entreprise li:hover {
+  background-color: white;
+  border-radius: 10px; /* Couleur d'arriere-plan du menu au survol */
+}
+#menu .menu_entreprise li:hover a {
+  color: black; /* Couleur du texte du menu au survol */
+}
+#menu .menu_entreprise ul li {
+  background-color: #A24392; /* Couleur d'arriere-plan des sous-menu */
+}
+#menu .menu_entreprise ul li:hover {
+  background-color: red;
+  opacity: 0.95; /* Couleur d'arriere-plan des sous-menu au survol */
+}
+#menu .menu_entreprise ul li a {
+  color: white; /* Couleur du texte des sous-menu */
+}
+#menu .menu_entreprise ul li:hover a {
+  color: purple; /* Couleur du texte des sous-menu au survol */
+}
+
+/* Gestion des couleurs */
+#menu .menu_IUT li {
+  background-color: #044883; /* Couleur d'arriere-plan du menu */
+}
+#menu .menu_IUT li a {
+  color: white; /* Couleur du texte du menu */
+}
+#menu .menu_IUT li:hover {
+  background-color: white;
+  border-radius: 10px;
+   /* Couleur d'arriere-plan du menu au survol */
+}
+#menu .menu_IUT li:hover a {
+  color: black; /* Couleur du texte du menu au survol */
+}
+#menu .menu_IUT ul li {
+  background-color: #044883; /* Couleur d'arriere-plan des sous-menu */
+
+}
+#menu .menu_IUT ul li:hover {
+  background-color: red; /* Couleur d'arriere-plan des sous-menu au survol */
+}
+#menu .menu_IUT ul li a {
+  color: white; /* Couleur du texte des sous-menu */
+}
+#menu .menu_IUT ul li:hover a {
+  color: purple; /* Couleur du texte des sous-menu au survol */
+}
+
+/* retirer les trucs pas beau des liens du menu */
+#menu a{
+text-decoration: none;
+}
+
+
+/* MENUE DEROULANT CSS RESPONSIVE */
+@media (min-width: 1150px) {
+  #menu-demo2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu-demo2 li{
+display:inline-block;
+position:relative;
+width: 160px;
+height: 100px;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu-demo2 li:hover ul{
+max-height:1000px;
+}
+/* background des liens menus */
+#menu-demo2 li:first-child{
+background-color: #00AF9E;
+background-image:-webkit-linear-gradient(top, #00AF9E 0%);
+background-image:linear-gradient(to bottom, #00AF9E 0%);
+}
+#menu-demo2 li:nth-child(2){
+background-color: #E71D73;
+background-image: -webkit-linear-gradient(top, #E71D73 0%, #E71D73 100%);
+background-image:linear-gradient(to bottom, #E71D73 0%, #E71D73 100%);
+}
+#menu-demo2 li:nth-child(3){
+background-color: #EB8915;
+background-image:-webkit-linear-gradient(top, #EB8915 0%, #EB8915 100%);
+background-image:linear-gradient(to bottom, #EB8915 0%, #EB8915 100%);
+}
+#menu-demo2 li:nth-child(4){
+background-color: #A24392;
+background-image:-webkit-linear-gradient(top, #A24392 0%, #A24392 100%);
+background-image:linear-gradient(to bottom, #A24392 0%, #A24392 100%);
+}
+#menu-demo2 li:last-child{
+background-color: #044883;
+background-image:-webkit-linear-gradient(top, #044883 0%, #044883 100%);
+background-image:linear-gradient(to bottom, #044883 0%, #044883 100%);
+}
+/* background des liens sous menus */
+#menu-demo2 li:first-child li{
+background:#00AF9E;
+}
+#menu-demo2 li:nth-child(2) li{
+background:#E71D73;
+}
+#menu-demo2 li:nth-child(3) li{
+background:#EB8915;
+}
+#menu-demo2 li:nth-child(4) li{
+background:#A24392;
+}
+#menu-demo2 li:last-child li{
+background:#044883;
+}
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+background:#00AF9E;
+}
+#menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
+background:#E71D73;
+}
+#menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:#EB8915;
+}
+#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(3) li:hover{
+background:#A24392;
+}
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+background:#044883;
+}
+/* les a href */
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+#menu-demo2 ul a{
+padding:8px 0;
+}
+#menu-demo2 li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:#000;
+}
+}
+
+/* FIN DU MENUE RESPONSIVE DEROULANT */
+
+
+/* Changement de l'arrÃ¨re plan des menues dÃ©roulent + leur tailles + taille police  */
+.menu_formation {
+  background:#00AF9E;
+  height:340px;
+  width:100%;
+  opacity: 0.8;
+  font-size:20px;
+}
+
+.menu_international {
+  background:#E71D73;
+  height:300px;
+  width:100%;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.menu_vieIUT {
+  background:#EB8915;
+  height:300px;
+  width:100%;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.menu_entreprise {
+  background:#A24392;
+  height:300px;
+  width:100%;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.menu_IUT {
+  background:#044883;
+  height:300px;
+  width:100%;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+/*MENU DES RESEAU SOCIAUX EN STICKY*/
+.menu_reseau{
+  width: 100px;
+  height:150px;
+  margin-right: 100%;
+  margin-left: 0%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+
+}
+.menu_reseau li{
+  list-style: none;
+  padding-top: 10%;
+  opacity: 0.8;
+}
+
+.menu_reseau li:hover{
+  opacity: 1;
+}
+
+/*             */
+#slideshow {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  padding: 10px;
+  margin: 0 auto 1em;
+  border: 1px solid #ddd;
+  background: #FFF;
+  /* CSS3 effects */
+  background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+  margin-top: 60px;
+}
+
+/* avanced box-shadow
+ * tutorial @
+ * https://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow
+*/
+#slideshow:before,
+#slideshow:after {
+  position: absolute;
+  bottom:16px;
+  z-index: -10;
+  width: 50%;
+  height: 20px;
+  content: " ";
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+}
+#slideshow:before {
+  left:0;
+  transform: rotate(-4deg);
+}
+#slideshow:after {
+  right:0;
+  transform: rotate(4deg);
+}
+
+/* gestion des dimensions et dÃ©bordement du conteneur */
+#slideshow .container {
+  position:relative;
+  width: 1000px;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* on prÃ©voit un petit espace gris pour la timeline */
+#slideshow .container:after {
+  position:absolute;
+  bottom: 0; left:0;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background: #999;
+}
+/*
+   le conteneur des slides
+   en largeur il fait 100% x le nombre de slides
+*/
+#slideshow .slider {
+  position: absolute;
+  left:0; top:0;
+  width: 400%;
+  height: 310px;
+}
+
+/* annulation des marges sur figure */
+#slideshow figure {
+  position:relative;
+  display:inline-block;
+  padding:0; margin:0;
+}
+/* petit effet de vignette sur les images */
+#slideshow figure:after {
+  position: absolute;
+  display:block;
+  content: " ";
+  top:0; left:0;
+  width: 100%; height: 100%;
+  box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+}
+
+/* styles de nos lÃ©gendes */
+#slideshow figcaption {
+  position:absolute;
+  left:0; right:0; bottom: 5px;
+  padding: 20px;
+  margin:0;
+  border-top: 1px solid rgb(225,225,225);
+  text-align:center;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
+  font-size:24px;
+  background: #fff;
+  background: rgba(255,255,255,0.7);
+  color: #555;
+  text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+}
+
+/* fonction d'animation, n'oubliez pas de prefixer ! */
+@keyframes slider {
+  0%, 20%, 100% { left: 0 }
+  25%, 45%    { left: -100% }
+  50%, 70%    { left: -200% }
+  75%, 95%    { left: -300% }
+}
+
+/* complÃ©tez le sÃ©lecteur : */
+#slideshow .slider {
+  /* ... avec la propriÃ©tÃ© animation */
+  animation: slider 32s infinite;
+}
+
+
+@keyframes timeliner {
+  0%, 25%, 50%, 75%, 100% { width: 0;   }
+  20%, 45%, 70%, 90%    { width: 640px; }
+}
+
+@keyframes figcaptionner {
+  0%, 25%, 50%, 75%, 100%           { bottom: -55px;  }
+  5%, 20%, 30%, 45%, 55%, 70%, 80%, 95%   { bottom: 5px;    }
+}
+
+
+
+/* DEBUT DE LA DIV INFO STAGE */
+
+.line {
+  background: #00AF9E;
+  width: 70%;
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.pannel p {
+  font-size:16px;
+}
+
+.pannel h1 {
+  color:#E71D73;
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+  .pannel {
+  background: #E71D73;
+  width: 100%;
+  height: 100%;
+  margin-top: 130px;
+  padding-bottom: 125px;
+}
+}
+@media (max-width: 300px) {
+  .pannel {
+  height: 500px;
+}
+}
+
+legend {
+    background-color: #E71D73;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+    font-weight: bold;
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.partenaire h1 {
+  border:1px solid black;
+  padding: 10px;
+  background: white;
+}
+
+.circle1 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGoFEeFHDCM0TZVAhclApEm1bgYjQJgXS97hmUYMTku6_ES1-8Yw&s");
+  background-position: center;
+  width: 390px;
+  height: 390px;
+  border-radius: 195px;
+  border:3px solid white;
+}
+
+.circle2 {
+  background: url("http://www.iut-lens.univ-artois.fr/wp-content/uploads/2016/12/Devanture_IUT_rentree-1024x575.jpg");
+  background-position: center;
+  width: 390px;
+  height: 390px;
+  border-radius: 195px;
+  border:3px solid white;
+}
+
+.article1 {
+  width: 350px;
+  height: 350px;
+  background: white;
+  margin:20px;
+}
+.article2 {
+  width: 350px;
+  height: 350px;
+  background: white;
+  margin:20px;
+}
+.article3 {
+  width: 350px;
+  height: 350px;
+  background: white;
+  margin:20px;
+}
+.article4 {
+  width: 350px;
+  height: 350px;
+  background: white;
+  margin:20px;
+}
+/* FIN DE LA DIV INFO STAGE */
+
+/* CSS pour le footer */
+.partenaire a{
+  text-decoration: underline;
+}
+.UQAC {
+  background:#00AF9E;
+  padding: 30px;
+  margin:40px;
+  height: 500px;
+
+}
+.BCI {
+  background:#E71D73;
+  padding: 30px;
+  margin:40px;
+  height: 500px;
+}
+
+.UPO {
+  background:#EB8915;
+  padding: 30px;
+  margin:40px;
+  height: 500px;
+}
+
+.DIT {
+  background:#A24392;
+  padding: 30px;
+  margin:40px;
+  height: 500px;
+}
+
+.ITS {
+  background:#044883;
+  padding: 30px;
+  margin:40px;
+  height: 500px;
+  width: 90%;
+}
+
+li {
+  color:white;
+}
+
+
+
+h3 {
+  margin: 100px;
+  font-weight: bold;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+footer {
+  padding-top: .5em;
+  font-size:14px;
+}
+
+.footer-block {
+    margin:30px;
+}
+
+#a {
+    color:blue;
+    background-color:#A24392;
+    padding:30px;
+    height: 200px;
+}
+#b {
+    color:blue;
+    background-color:#044883;
+    padding:30px;
+    height: 200px;
+}
+#c {
+    color:blue;
+    background-color:#EB8915;
+    padding:30px;
+    height: 200px;
+}
+#d{
+    color:blue;
+    background-color:#E71D73;
+    padding:30px;
+    height: 200px;
+}
+#e{
+    color:blue;
+    background-color:#00AF9E;
+    padding:30px;
+    height: 200px;
+}
+#f {
+  color:blue;
+    background-color:#A24392;
+    padding:30px;
+    height: 200px;
+}
+
+@media (min-width: 500px) {
+  #a , #b , #c , #d , #e , #f{
+    height: 400px;
+  }
+}
+
+#TLI,#TLE,#TLR,#TLT,#TLH{
+    color:white;
+    font-size:18px;
+}
+#footer{
+    margin-top: 100px;
+    background-color:#292929;
+    padding:bottom;
+}
+#copyright{
+    color:white;
+}
+
+/* FIN DU FOOTER */
+
+.centre h1{
+  font-size: 22px;
+  font-weight: bold;
+}
+.centre a{
+  color:black;
+  text-decoration: underline;
+}
+.centre a:hover{
+  color:blue;
+}
+
+.header_stage{
+  margin-top: 50px;
+  padding:40px;
+  background:white;
+  border:4mm ridge rgba(47, 53, 57, .9);
+  opacity: 0.8;
+  text-align:center;
+}
+.header_stage li {
+  color:black;
+  margin-left: 0px;
+  text-align:justify;
+  list-style-position: inside;
+}
+
+.header_stage a{
+  color: black;
+  text-decoration: underline;
+}
+.li2{
+  text-align: center; 
+}
+
+.stage{
+  border:1px solid black;
+  height: 750px;
+  margin-top: 120px;
+  padding:20px;
+  background:#00AF9E;
+  box-shadow: 60px -16px teal; 
+  color:white;
+}
+
+@media (max-width: 1100px) {
+  .stage{
+  border:1px solid black;
+  height: 850px;
+  margin-top: 30px;
+  padding:20px;
+  background:#00AF9E;
+  box-shadow: 60px -16px teal; 
+  color:white;
+}
+}
+
+.stage li{
+  color: white;
+}
+.stage h1 , .suite_article_stage h1,.stage_partenaire h1{
+  text-align: center;
+  border:1px solid black;
+  background-color: white;
+  color:black;
+}
+
+.circleInfo1 {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background: url("https://www.capcampus.com/img/u/1/stage-etudiiant.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left:150px;
+  margin-top: 240px;
+  padding:20px;
+}
+
+@media (max-width: 1100px) {
+  .circleInfo1 {
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  background: url("https://www.capcampus.com/img/u/1/stage-etudiiant.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left:150px;
+  margin-top: 300px;
+}
+}
+
+.suite_article_stage{
+  border:1px solid black;
+  height: 750px;
+  margin-top: 100px;
+  padding:20px;
+  background:#00AF9E;
+  box-shadow: 60px -16px teal; 
+  color:white;
+}
+
+.circleInfo2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background: url("https://www.dynamique-mag.com/wp-content/uploads/a4acc08bb27c18ef082720e288bb5f8d-780x405.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right:100px;
+  margin-top: 200px;
+  padding:20px;
+}
+
+@media (max-width: 1100px) {
+  .circleInfo2 {
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  background: url("https://www.dynamique-mag.com/wp-content/uploads/a4acc08bb27c18ef082720e288bb5f8d-780x405.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right:100px;
+  margin-top: 250px;
+}
+}
+
+.stage_partenaire{
+  border:1px solid black;
+  height: 90ss0px;
+  margin-top: 100px;
+  padding:20px;
+  background:#00AF9E;
+  box-shadow: 60px -16px teal; 
+  color:white;
+}
+.stage_partenaire a{
+  text-decoration: underline;
+}
+
+.circleInfo3 {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background: url("https://www.canald.com/polopoly_fs/1.1474949.1426621347!/image/poignee_de_main796.jpg_gen/derivatives/cd_796_449/poignee_de_main796.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left:150px;
+  margin-top: 240px;
+  padding:20px;
+}
+
+@media (max-width: 1100px) {
+  .circleInfo3 {
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  background: url("https://www.canald.com/polopoly_fs/1.1474949.1426621347!/image/poignee_de_main796.jpg_gen/derivatives/cd_796_449/poignee_de_main796.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left:120px;
+  margin-top: 300px;
+}
+}
+.trait{
+  border:1px solid white;
+}
